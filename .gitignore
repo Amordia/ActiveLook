@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+*.dist-info/
+
+# Logs and outputs
+outputs/
+outputs_2b/
+outputs_7b/
+*.log
+*.out
+wandb/
+runs/
+
+# Model weights (large binaries)
+model_zoo/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Data (large files - download separately)
+data/
+datasets/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# DeepSpeed checkpoints
+global_step*/
+zero_to_fp32.py
+
+# Misc
+*.tmp
+*.bak
