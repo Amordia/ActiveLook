@@ -26,9 +26,9 @@ ActiveLook introduces:
 - ⚡ **Chain-of-LoRA Efficiency** — all roles (Planner, Grounder, Verifier, Answerer) share a single frozen large multimodal model backbone with lightweight LoRA adapters, keeping inference costs low.
 
 <p align="center">
-  <img width="700" src="https://raw.githubusercontent.com/yeliudev/VideoMind/main/.github/method.png">
+  <img width="800" src="assets/method.png">
   <br>
-  <i>ActiveLook extends the VideoMind four-role pipeline with a multi-scale active refinement loop in the Grounder stage.</i>
+  <i>Overview of the ActiveLook framework. The Planner decomposes the question into steps; the Grounder runs three complementary sampling scales (standard / high-temporal / high-spatial) and applies dual-signal early stopping; cross-scale candidates are fused and deduplicated; the Verifier globally reranks them; and the Answerer produces the final answer.</i>
 </p>
 
 ---
