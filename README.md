@@ -4,7 +4,7 @@
   <a href="https://arxiv.org/"><img src="https://img.shields.io/badge/arXiv-Coming Soon-red"></a>
   <a href="https://github.com/Amordia/ActiveLook"><img src="https://img.shields.io/badge/GitHub-ActiveLook-blue"></a>
   <img src="https://img.shields.io/badge/License-BSD--3--Clause-green">
-  <img src="https://img.shields.io/badge/TMM-Under%20Review-orange">
+  <img src="https://img.shields.io/badge/Under%20Review-orange">
 </p>
 
 > **TL;DR:** We reformulate long-video temporal grounding as a *feedback-driven active perception process*, adding an iterative self-feedback refinement mechanism on top of a chain-of-LoRA agent to fix low-confidence predictions automatically.
